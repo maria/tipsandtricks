@@ -1,0 +1,42 @@
+# Define tips elements data.
+# Each item has the following structure:
+# - title: string
+#   content: the tip
+#   color: it's background color
+#
+
+- title: Use git
+  content: use a subversion system to sleep at night, even when in development mode.
+
+- title: Split the app in npm modules
+  content: split your app in independent npm modules. Deploy them as npm packages if possible.
+
+- title: Give love to your package.json
+  content: use devDependencies and pin package versions as much as possible.
+
+- title: Don't put everything on production
+  content: documents, tests or examples shouldn't go into production.
+
+- title: Use npm scripts
+  content: hide all of your build and deploy boilerplate inside npm scripts.
+
+- title: Use a config file
+  content: don't base all of your decisions on NODE_ENV, use a concise config file per environment.
+
+- title: Have a debug flag
+  content: running your app with debug it's a miracle especially in firefighting mode.
+
+- title: Have Continuous Delivery
+  content: use Travis or Jenkins to deploy your project. Define a npm deploy script at least.
+
+- title: Use a CDN
+  content: serve your static files from one place and through a web server or CDN.
+
+- title: Use a Process Control System
+  content: a good process control system can save all of us a lot of time.
+
+- title: Use Sentry
+  content: catch expections and solve them before anyone else see's them.
+
+- title: Develop on the same environment on which you will deploy
+  content: just do it :)
