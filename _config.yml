@@ -10,7 +10,7 @@ title: Tips&Tricks
 email: marianitadn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Tips and tricks - now about frontend deploys, soon about everything
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/tipsandtricks" # the subpath of your site, e.g. /blog
 url: "http://maria.github.io" # the base hostname & protocol for your site
 twitter_username: MariaDana13
 github_username:  maria
