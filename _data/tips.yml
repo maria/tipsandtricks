@@ -14,7 +14,7 @@
 - title: Give love to your package.json
   content: use devDependencies and pin package versions as much as possible.
 
-- title: Don't put everything on production
+- title: Don't put everything in production
   content: documents, tests or examples shouldn't go into production.
 
 - title: Use npm scripts
@@ -24,7 +24,7 @@
   content: don't base all of your decisions on NODE_ENV, use a concise config file per environment.
 
 - title: Have a debug flag
-  content: running your app with debug it's a miracle especially in firefighting mode.
+  content: running your app with debug is a miracle especially in firefighting mode.
 
 - title: Have Continuous Delivery
   content: use Travis or Jenkins to deploy your project. Define a npm deploy script at least.
@@ -36,7 +36,7 @@
   content: a good process control system can save all of us a lot of time.
 
 - title: Use Sentry
-  content: catch expections and solve them before anyone else see's them.
+  content: catch exceptions and solve them before anyone else see's them.
 
 - title: Develop on the same environment on which you will deploy
   content: just do it :)
