@@ -2,17 +2,16 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <h2 class="footer-heading">{{ site.title }} @ Frontend Meetup</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>Hacked with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> in Bucharest</li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="footer-col footer-col-4 pull-right">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -25,11 +24,8 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+          <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:{{ site.email }}">Contact me</a></li>
         </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
       </div>
     </div>
 
