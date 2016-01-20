@@ -11,26 +11,49 @@
      @include media-query($on-palm) {
        min-height: 400px;
      }
-}
+    h2 {
+      color: $header-color;
 
-.site-header h2 {
-  color: #188282;
+      font-size: 58px;
+      text-transform: uppercase;
 
-  font-size: 58px;
-  margin-top: 25%;
-  margin-left: 35%;
+      margin-top: 25%;
+      margin-left: 35%;
 
-  @include media-query($on-laptop) {
-    font-size: 28px;
-    margin-top: 30%;
-    margin-left: 30%;
-  }
+      @include media-query($on-laptop) {
+        font-size: 25px;
+        margin-top: 25%;
+        margin-left: 35%;
+      }
 
-  @include media-query($on-palm) {
-    font-size: 18px;
-    margin-top: 55%;
-    margin-left: 34%;
-  }
+      @include media-query($on-palm) {
+        font-size: 18px;
+        margin-top: 55%;
+        margin-left: 34%;
+      }
+    }
+
+    h3 {
+     color: $header-color;
+
+     font-size: 50px;
+     text-transform: uppercase;
+
+     padding-top: 10px;
+     margin-left: 25%;
+
+     @include media-query($on-laptop) {
+       font-size: 50px;
+       padding-top: 10px;
+       margin-left: 25%;
+     }
+
+     @include media-query($on-palm) {
+       font-size: 18px;
+       padding-top: 5px;
+       margin-left: 25%;
+     }
+    }
 }
 
 .site-title {
@@ -199,26 +222,10 @@
     font-size: 20px;
 }
 
-.post-list {
+.post-section {
     margin-left: 0;
-    list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
-    }
 }
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-
 
 /**
  * Posts

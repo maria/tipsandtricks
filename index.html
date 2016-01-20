@@ -6,18 +6,17 @@ layout: default
 
 <div class="page-content">
   <div class="wrapper">
-
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.title }}</span>
-        <div class="post-content">
-          {{ post.content }}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <div class="post-section">
+        <li>
+          <span class="post-meta">{{ post.title }}</span>
+          <div class="post-content">
+            {{ post.content }}
+          </div>
+        </li>
+      </div<
+      {% endfor %}
+    </ul>
   </div>
 </div>
