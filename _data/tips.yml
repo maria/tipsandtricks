@@ -6,7 +6,7 @@
 #
 
 - title: Use git
-  content: use a subversion system to sleep at night, even when in development mode.
+  content: use a subversion system to sleep at night, even in development mode.
 
 - title: Split the app in npm modules
   content: split your app in independent npm modules. Deploy them as npm packages if possible.
@@ -21,7 +21,7 @@
   content: hide all of your build and deploy boilerplate inside npm scripts.
 
 - title: Use a config file
-  content: don't base all of your decisions on NODE_ENV, use a concise config file per environment.
+  content: don't build all of the logic on NODE_ENV, use a concise config file per environment.
 
 - title: Have a debug flag
   content: running your app with debug is a miracle especially in firefighting mode.
@@ -36,7 +36,7 @@
   content: a good process control system can save all of us a lot of time.
 
 - title: Use Sentry
-  content: catch exceptions and solve them before anyone else see's them.
+  content: catch exceptions and solve them before anyone else sees them.
 
-- title: Develop on the same environment on which you will deploy
+- title: Develop on the same environment on which you deploy
   content: just do it :)
