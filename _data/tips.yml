@@ -2,7 +2,6 @@
 # Each item has the following structure:
 # - title: string
 #   content: the tip
-#   color: it's background color
 #
 
 - title: Use git
