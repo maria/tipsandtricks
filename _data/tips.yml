@@ -37,5 +37,5 @@
 - title: Use Sentry
   content: catch exceptions and solve them before anyone else sees them.
 
-- title: Develop on the same environment on which you deploy
+- title: Your development environment should be configured the same as the one on which you'll deploy
   content: just do it :)
